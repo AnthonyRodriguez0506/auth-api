@@ -5,7 +5,7 @@ A secure and scalable REST API for user authentication, built with Spring Boot. 
 ## Tech Stack
 
 - Java 21
-- Spring Boot 4.0.4
+- Spring Boot 4.0.5
 - Spring Web — RESTful endpoints
 - Spring Security — Authentication and access control
 - Spring Data JPA — Data persistence layer
@@ -46,7 +46,7 @@ The API will be available at `http://localhost:8080`
 
 ## Roadmap
 
-- [X] Project initialization with Spring Boot
+- [ ] Project initialization with Spring Boot
 - [ ] User model (username, email, password)
 - [ ] POST register a new user
 - [ ] POST login with JWT response
@@ -54,3 +54,4 @@ The API will be available at `http://localhost:8080`
 - [ ] GET protected profile endpoint
 - [ ] Password hashing with BCrypt
 - [ ] Connect to PostgreSQL for production
+- [ ] Dockerize the application

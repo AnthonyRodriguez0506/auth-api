@@ -46,8 +46,8 @@ The API will be available at `http://localhost:8080`
 
 ## Roadmap
 
-- [ ] Project initialization with Spring Boot
-- [ ] User model (username, email, password)
+- [X] Project initialization with Spring Boot
+- [X] User model (username, email, password)
 - [ ] POST register a new user
 - [ ] POST login with JWT response
 - [ ] JWT filter for protected routes

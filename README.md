@@ -46,12 +46,13 @@ The API will be available at `http://localhost:8080`
 
 ## Roadmap
 
-- [X] Project initialization with Spring Boot
-- [X] User model (username, email, password)
+- [x] Project initialization with Spring Boot
+- [x] User model (username, email, password)
+- [x] UserRepository with findByEmail
+- [x] SecurityConfig with BCrypt bean
 - [ ] POST register a new user
 - [ ] POST login with JWT response
 - [ ] JWT filter for protected routes
 - [ ] GET protected profile endpoint
-- [ ] Password hashing with BCrypt
 - [ ] Connect to PostgreSQL for production
 - [ ] Dockerize the application

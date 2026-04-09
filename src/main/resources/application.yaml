@@ -12,3 +12,7 @@ spring:
   h2:
     console:
       enabled: true
+
+jwt:
+  secret: unaClaveSecretaMuyLargaParaDesarrollo123456
+  expiration: 86400000

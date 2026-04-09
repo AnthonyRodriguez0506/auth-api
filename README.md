@@ -50,9 +50,11 @@ The API will be available at `http://localhost:8080`
 - [x] User model (username, email, password)
 - [x] UserRepository with findByEmail
 - [x] SecurityConfig with BCrypt bean
-- [ ] POST register a new user
-- [ ] POST login with JWT response
-- [ ] JWT filter for protected routes
+- [x] JwtUtil (generateToken, extractEmail)
+- [x] UserService (register + login)
+- [ ] AuthController (POST /register, POST /login)
+- [ ] SecurityConfig (rutas públicas y privadas)
+- [ ] JwtAuthenticationFilter
 - [ ] GET protected profile endpoint
 - [ ] Connect to PostgreSQL for production
 - [ ] Dockerize the application

@@ -52,8 +52,8 @@ The API will be available at `http://localhost:8080`
 - [x] SecurityConfig with BCrypt bean
 - [x] JwtUtil (generateToken, extractEmail)
 - [x] UserService (register + login)
-- [ ] AuthController (POST /register, POST /login)
-- [ ] SecurityConfig (rutas públicas y privadas)
+- [x] AuthController (POST /register, POST /login)
+- [ ] SecurityConfig (private and public Routes)
 - [ ] JwtAuthenticationFilter
 - [ ] GET protected profile endpoint
 - [ ] Connect to PostgreSQL for production

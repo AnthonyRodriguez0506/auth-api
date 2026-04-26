@@ -1,6 +1,6 @@
 # auth-api
 
-A secure and scalable REST API for user authentication, built with Spring Boot. Implements JWT-based authentication with protected routes, serving as a hands-on introduction to Spring Security in Java.
+A secure REST API for user authentication built with Spring Boot, implementing JWT-based stateless authentication and protected routes with Spring Security.
 
 ## Tech Stack
 

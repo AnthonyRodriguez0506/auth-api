@@ -53,8 +53,8 @@ The API will be available at `http://localhost:8080`
 - [x] JwtUtil (generateToken, extractEmail)
 - [x] UserService (register + login)
 - [x] AuthController (POST /register, POST /login)
-- [ ] SecurityConfig (private and public Routes)
-- [ ] JwtAuthenticationFilter
+- [X] SecurityConfig (private and public Routes)
+- [X] JwtAuthenticationFilter
 - [ ] GET protected profile endpoint
 - [ ] Connect to PostgreSQL for production
 - [ ] Dockerize the application

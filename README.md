@@ -55,7 +55,7 @@ The API will be available at `http://localhost:8080`
 - [x] AuthController (POST /register, POST /login)
 - [X] SecurityConfig (private and public Routes)
 - [X] JwtAuthenticationFilter
-- [ ] GET protected profile endpoint
+- [X] GET protected profile endpoint
 - [ ] Connect to a persistent database (PostgreSQL)
 - [ ] Dockerize the application
 - [ ] API documentation with Swagger
